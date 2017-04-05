@@ -1,0 +1,32 @@
+div#wrapper {
+  margin: auto;
+  text-align: center;
+
+}
+
+h2 {
+  font-family: 'Press Start 2P', cursive;
+}
+
+div#container {
+  margin: 30px auto;
+  text-align: center;
+  width: 500px;
+  height: 500px;
+  border: 1px solid black;
+  background-color: white;
+}
+
+div#outContainer {
+  margin: 30px auto;
+  text-align: center;
+  width: 600px;
+  height: 560px;
+  background-color: #de1d20;
+  border: 1px solid #de1d20;
+  border-radius: 10px;
+}
+
+#pixel {
+  float: left;
+}
