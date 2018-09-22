@@ -1,11 +1,13 @@
+/* General styling*/
+h2 {
+  font-family: 'Press Start 2P', cursive;
+}
+
+/* Container styling*/
 #wrapper {
   margin: auto;
   text-align: center;
 
-}
-
-h2 {
-  font-family: 'Press Start 2P', cursive;
 }
 
 #container {
@@ -27,6 +29,7 @@ h2 {
   border-radius: 10px;
 }
 
+/* Pixel styling */
 #pixel {
   float: left;
 }
