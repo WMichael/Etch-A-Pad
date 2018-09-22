@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Etch-A-Pad</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
     crossorigin="anonymous"></script>
     <script src="js/main.js"></script>
@@ -13,11 +13,23 @@
   <body>
     <div id="wrapper">
       <h2>Etch-A-Pad</h2>
-      <button type="button" id="clear">Clear</button>
-      <button type="button" id="resize">Resize</button> </br>
-      <input type="radio" name="setting" id="black" value="true" checked="true"> Black</input>
-      <input type="radio" name="setting" id="randomc" value="true"> Random</input>
-      <input type="radio" name="setting"id="erase" value="true"> Rubber</input>
+      <div class="palette">
+        <div id="clear" class="option">
+          <p>Clear</p>
+        </div>
+        <div id="resize" class="option">
+          <p>Resize</p>
+        </div>
+        <div id="black" class="option">
+          <p>Black</p>
+        </div>
+        <div id="randomc" class="option">
+          <p>Random</p>
+        </div>
+        <div id="erase" class="option">
+          <p>Rubber</p>
+        </div>
+      </div>
         <div id="outContainer">
           <div id="container">
           </div>

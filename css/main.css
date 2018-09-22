@@ -3,11 +3,42 @@ h2 {
   font-family: 'Press Start 2P', cursive;
 }
 
+p {
+  font-family: cursive;
+}
+
+/* Palette styling*/
+.palette {
+  display: inline-block;
+  margin-top: 10px;
+  /* padding:  */
+  justify-content:center;
+  height: 60px;
+}
+
+.option {
+  border: 2px solid black;
+  display: inline-block;
+  height: 50px;
+  min-width: 60px;
+}
+
+.option:hover {
+  height: 60px;
+  border-color: red;
+  border-width: 3px;
+}
+
+.selected {
+  height: 60px;
+  border-color: red;
+  border-width: 3px;
+}
+
 /* Container styling*/
 #wrapper {
   margin: auto;
   text-align: center;
-
 }
 
 #container {
@@ -20,7 +51,7 @@ h2 {
 }
 
 #outContainer {
-  margin: 30px auto;
+  margin: 15px auto;
   text-align: center;
   width: 600px;
   height: 560px;
@@ -30,6 +61,6 @@ h2 {
 }
 
 /* Pixel styling */
-#pixel {
+.pixel {
   float: left;
 }
