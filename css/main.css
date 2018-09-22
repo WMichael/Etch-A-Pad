@@ -1,4 +1,4 @@
-div#wrapper {
+#wrapper {
   margin: auto;
   text-align: center;
 
@@ -8,7 +8,7 @@ h2 {
   font-family: 'Press Start 2P', cursive;
 }
 
-div#container {
+#container {
   margin: 30px auto;
   text-align: center;
   width: 500px;
@@ -17,7 +17,7 @@ div#container {
   background-color: white;
 }
 
-div#outContainer {
+#outContainer {
   margin: 30px auto;
   text-align: center;
   width: 600px;
